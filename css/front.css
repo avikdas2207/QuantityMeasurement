@@ -1,0 +1,168 @@
+
+body{
+    background-color: #F5F6FA;
+}
+
+.well{
+    text-align: center;
+    background: #446DFF;
+    opacity: 1;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+.card{
+    height: 135px;
+    width: 170px;
+    align-items: center;
+    padding-top: 35px;
+    border-radius: 7px;
+    
+}
+
+.card-title{
+    padding-top: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 600px;
+    align-items : center
+    }
+
+.box{
+    display: flex;
+    
+    justify-content: center;
+    
+    
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rightBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.measure{
+    height: 45px;
+}
+
+.card1{
+    margin: 20px;
+}
+
+
+.para{
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+    padding: 50px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+  
+img{
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hv:hover img{
+    content: url("../assets/scalehv.jpg");
+}
+
+.hv2:hover img{
+    content: url("../assets/hothv.jpg");
+}
+
+.hv3:hover img{
+    content: url("../assets/beakerhv.jpg");
+}
+
+.hv:hover{
+    background: #EDFDF9 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #0EC098;
+border-radius: 7px;
+opacity: 1;
+}
+
+.hv2:hover{
+    background: #FFEEF0 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FD5160;
+border-radius: 7px;
+opacity: 1;
+}
+
+.hv3:hover{
+    background: #E8DDFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #7224FF;
+border-radius: 7px;
+opacity: 1; 
+}
+
+.input{
+top: 471px;
+left: 385px;
+width: 280px;
+height: 45px;
+}
+
+
+
+
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text1{
+    margin: 25px;
+    margin-left: 100px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text2{
+    margin: 25px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  }
