@@ -9,10 +9,18 @@ body{
     opacity: 1;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    height: 75px;
 }
 
 h1{
     color: white;
+}
+
+.all{
+    max-width: 600px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 .card{
@@ -21,18 +29,18 @@ h1{
     align-items: center;
     padding-top: 35px;
     border-radius: 7px;
-    
+    opacity: 0.50;
 }
 
 .card-title{
     padding-top: 10px;
 }
 
-.container{
+.contain{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 600px;
+    
     align-items : center
     }
 
@@ -66,9 +74,9 @@ h1{
 
 .para{
     margin: 0 auto;
-    max-width: 600px;
+    
     text-align: left;
-    padding: 50px;
+    
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -82,15 +90,25 @@ img{
     justify-content: center;
 }
 
+.hv img {
+    content: url("../assets/scale.jpg");
+}
 
 .hv:hover img{
     content: url("../assets/scalehv.jpg");
+}
+
+.hv2 img{
+    content: url("../assets/hot.jpg");
 }
 
 .hv2:hover img{
     content: url("../assets/hothv.jpg");
 }
 
+.hv3 img{
+    content: url("../assets/beaker.jpg");
+}
 .hv3:hover img{
     content: url("../assets/beakerhv.jpg");
 }
@@ -119,15 +137,68 @@ border-radius: 7px;
 opacity: 1; 
 }
 
+.card1Click img{
+    content: url("../assets/scalehv.jpg");
+}
+
+.card1Click{
+    background: #EDFDF9 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #0EC098;
+border-radius: 7px;
+opacity: 1;
+}
+
+
+.card2Click img{
+    content: url("../assets/hothv.jpg");
+}
+
+.card2Click{
+    background: #FFEEF0 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FD5160;
+border-radius: 7px;
+opacity: 1;
+}
+
+.card3Click img{
+    content: url("../assets/beakerhv.jpg");
+}
+
+
+.card3Click{
+    background: #E8DDFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #7224FF;
+border-radius: 7px;
+opacity: 1; 
+}
+
+
+
 .input{
 top: 471px;
 left: 385px;
 width: 280px;
 height: 45px;
+font-size: 15px;
+opacity: 1;
+letter-spacing: 0px;
+font-family: 'Montserrat';
 }
 
 
-
+.opt{
+    top: 471px;
+    left: 385px;
+    width: 280px;
+    height: 45px;
+    font-size: 15px;
+opacity: 1;
+letter-spacing: 0px;
+font-family: 'Montserrat';
+    }
 
 
 
@@ -154,15 +225,56 @@ height: 45px;
     padding: 20px;
 }
 
+
+.clickhv{
+    background: #EDFDF9 0% 0% no-repeat padding-box !important;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #0EC098;
+border-radius: 7px;
+opacity: 1;
+}
+
+
+.onclickhv img{
+    content: url("../assets/scalehv.jpg");
+}
+
+
 @media only screen and (max-width: 600px) {
-    .container{
-        display: flex;
+    
+    .contain{
+       
         flex-direction: column;
     }
 
     .box{
-        display: flex;
+        
         flex-direction: column;
         
     }
+    .card1 {
+       flex-direction: column;
+    }
+
+    .opt{
+        top: 471px;
+        left: 385px;
+        width: 100px;
+        height: 25px;
+        font-size: 15px;
+    opacity: 1;
+    letter-spacing: 0px;
+        }
+
+
+        .input{
+            top: 471px;
+            left: 385px;
+            width: 100px;
+            height: 25px;
+            font-size: 15px;
+            opacity: 1;
+            letter-spacing: 0px;
+            }
+
   }
